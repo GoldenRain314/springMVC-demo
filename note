@@ -1,0 +1,4 @@
+运行没有问题，但是发起请求后Controller返回数据给前台时，会报类型转换异常，是因为缺少一下jar包：
+jackson-annotations.jar
+jackson-core.jar
+jackson-databind.jar
